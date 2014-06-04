@@ -32,7 +32,8 @@ To run the Tornado Server :
 
 <code>
 export DJANGO_SETTINGS_MODULE=qaz.settings
-
+<code>
+<code>
 ./qaz/tornado_main.py
 <code>
 
