@@ -14,9 +14,12 @@ Main URLs
 ---------
 
 *	http://server:port/envs
+
 	Lists down all the Chat Rooms available . 
     Chat Rooms are stored in the database in the table "Env_Rooms" ( can be found in models.py of env_rooms app).
-*	http://server:port/env/name_of_the_chat_room  for example http://server:port/env/chat_room1
+*	http://server:port/env/name_of_the_chat_room  
+
+	For example http://server:port/env/chat_room1
 	This webpage contains the chat room
 	
 	
