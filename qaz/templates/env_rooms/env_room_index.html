@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Chat Rooms Available !</title>
+    </head>
+
+    <body>
+        <h1>List of Available Chat Rooms</h1>
+		<div>
+		{% if envs %}
+			{% for env in envs %}
+			<a href="/env/{{ env }}">{{ env }}</a>
+			<br>
+			{% endfor %}
+		{% else %}
+			<p>No Chat Rooms Available !</p>
+		{% endif %}
+		</div>
+	</body>
+</html>
