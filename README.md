@@ -3,7 +3,9 @@ MultipleChatRoom-Using-Torndo-Django-and-Redis
 
 Mutiple Chat Room using Tornado,Django and Redis. 
 
-Tornado is used for running Django and handle Websocket requests so that all the chat rooms can transfer data real-time.
+Chats Rooms transfer data real-time using WebSockets.
+
+Tornado is used for running Django and handle Websocket requests.
 
 Chat Rooms can be added from Django Admin Panel.
 
@@ -23,6 +25,16 @@ Main URLs
 	This webpage contains the chat room
 	
 	
+Usage
+-----
+
+To run the Tornado Server :
+
+<code>
+export DJANGO_SETTINGS_MODULE=qaz.settings
+./qaz/tornado_main.py
+<code>
+
 This project is inspired by https://github.com/nellessen/Tornado-Redis-Chat.git
 
 
