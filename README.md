@@ -13,8 +13,14 @@ Redis Pub/Sub Feature is used for each chat room.
 Main URLs
 ---------
 
-http://server:port/envs --> Lists down all the Chat Rooms available . 
-                                Chat Rooms are stored in the database in the table "Env_Rooms" ( can be found in models.py of env_rooms app).
+*	http://server:port/envs
+	Lists down all the Chat Rooms available . 
+    Chat Rooms are stored in the database in the table "Env_Rooms" ( can be found in models.py of env_rooms app).
+*	http://server:port/env/(?P<env>[\w@]+)
+	This webpage contains the chat room
+	
+	
+This project is inspired by https://github.com/nellessen/Tornado-Redis-Chat.git
 
 
 
