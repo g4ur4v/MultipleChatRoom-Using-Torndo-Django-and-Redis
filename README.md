@@ -1,7 +1,7 @@
 MultipleChatRoom-Using-Torndo-Django-and-Redis
 ==============================================
 
-Mutiple Chat Room using Tornado,Django and Redis. 
+Multiple Chat Room using Tornado,Django and Redis. 
 
 Chats Rooms transfer data real-time using WebSockets.
 
